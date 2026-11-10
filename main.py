@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
-import redis_endpointss as rf
+import redis_endpoints as rf
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
